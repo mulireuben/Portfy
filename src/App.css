@@ -1,0 +1,78 @@
+#root {
+  overflow: hidden;
+}
+
+.container {
+  max-width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* .ant-layout-header {
+  background: none;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+} */
+
+/* topbar */
+/* AppHeader.css */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a.active {
+  font-weight: bold;
+}
+
+.mobileHidden {
+  display: none; /* Hide on mobile or use media queries to show/hide */
+}
+
+@media (min-width: 768px) {
+  .mobileHidden {
+    display: flex; /* Show on larger screens */
+  }
+}
+
+
