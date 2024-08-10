@@ -4,8 +4,8 @@
 
 .container {
   max-width: auto;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 /* .ant-layout-header {
   background: none;
@@ -74,5 +74,3 @@
     display: flex; /* Show on larger screens */
   }
 }
-
-

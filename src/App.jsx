@@ -19,7 +19,7 @@ const App = () => {
               <AppHeader />
             </div>
           </Header>
-          <Layout style={{ padding: '2px' }}>
+          <Layout style={{ padding: '0' }}>
             <Sider style={{ backgroundColor: 'darkgrey' }}>
               <div className='logo' />
 
@@ -55,7 +55,7 @@ const App = () => {
                 </Menu.Item>
               </Menu>
             </Sider>
-            <Content style={{ padding: '30px', backgroundColor: 'grey' }}>
+            <Content style={{ padding: '30px', backgroundColor: 'white' }}>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/About' element={<About />} />

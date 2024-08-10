@@ -1,4 +1,4 @@
-import { Card, Col, Form, Row } from 'antd';
+import { Col, Form, Row } from 'antd';
 import { Link } from 'react-router-dom';
 import Mrpng from '../../assets/Mr.png';
 import hireme from '../../assets/hireme.png';
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Form>
         <Row gutter={24} align='vertical'>
-          <Col span={12}>
+          <Col span={12} className='introcontent'>
             <span className='hello'>Hello,</span>
             <br />
             <span className='introText'>
@@ -34,7 +34,7 @@ const Home = () => {
             </Link>
           </Col>
 
-          <Col span={12}>
+          <Col span={12} style={{ justifyContent: 'flex-end' }}>
             <img src={Mrpng} alt='profile' className='bg' />
           </Col>
         </Row>
