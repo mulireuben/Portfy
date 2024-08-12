@@ -1,4 +1,4 @@
-import { Row, Col, Card, Button, PageHeader } from 'antd';
+import { Row, Col, Card, Button, PageHeader, Divider } from 'antd';
 import 'antd/dist/antd.css'; // Import Ant Design styles
 
 const projects = [
@@ -28,6 +28,7 @@ const Projects = () => {
     <div style={{ padding: '0 ' }}>
       <Card style={{ borderRadius: '15px' }}>
         <PageHeader title='My Projects' onBack={() => history.push('/')} />
+        <Divider />
 
         <Row gutter={6} type='flex' justify='space-around' align='middle'>
           {projects.map((project, index) => (
