@@ -1,4 +1,4 @@
-import { Card, Col, Divider, Form, Row } from 'antd';
+import { Card, Col, Divider, Form, PageHeader, Row } from 'antd';
 
 const About = () => {
   return (
@@ -7,8 +7,8 @@ const About = () => {
       bodyStyle={{ padding: '20px' }}
     >
       <Row type='flex' justify='center' style={{ padding: '0px' }}>
-        <Col span={16}>
-          <h1 style={{ margin: '0px', padding: '10px' }}>About Me</h1>
+        <Col span={24}>
+          <PageHeader  onBack={() => window.history.back()} style={{ margin: '0px', padding: '10px' }}>About Me</PageHeader>
           <Divider />
           <Form layout='vertical'>
             <Form.Item>
